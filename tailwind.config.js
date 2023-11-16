@@ -6,8 +6,13 @@ module.exports = {
     './app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
+    extend: {
+      fontFamily: {
+        sans: ['Montserrat Alternates', 'Montserrat', 'sans-serif'],
+      },
+    },
     colors: {
-      'white':{
+      'white': {
         100: '#E6E6E6',
         75: '#B6B5B7',
         50: '#B6B5B7',
@@ -15,7 +20,7 @@ module.exports = {
         12: '#3E3C41',
         5: '#312F34'
       },
-      'black':{
+      'black': {
         100: '#27252B',
         75: '#575559',
         50: '#868588',
@@ -23,10 +28,10 @@ module.exports = {
         12: '#CFCFD0',
         5: '#DCDCDD'
       },
-      'cyan':'#1994FF',
-      'pink':'#C91DA3',
-      'purple':'#2A0A61',
-      'yellow':'#FFBB0B'
+      'cyan': '#1994FF',
+      'pink': '#C91DA3',
+      'purple': '#2A0A61',
+      'yellow': '#FFBB0B'
     }
   },
   plugins: [],
