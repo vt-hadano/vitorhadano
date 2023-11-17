@@ -1,6 +1,6 @@
-export default function LinkedinIcon({ className, children }: { className?: string, children?: React.ReactNode }) {
+export default function LinkedinIcon({ parentClassName, className, children }:{ parentClassName: string; className?: string; children?: React.ReactNode }) {
     return (
-        <div>
+        <div className={`group ${parentClassName}`}>
             <svg width="20" height="18" viewBox="0 0 20 18" fill="none" xmlns="http://www.w3.org/2000/svg" className={className}>
                 <path d="M4.93994 2.00219C4.93968 2.53262 4.72871 3.04122 4.35345 3.41611C3.97819 3.79099 3.46937 4.00145 2.93894 4.00119C2.40851 4.00092 1.89991 3.78995 1.52502 3.41469C1.15014 3.03943 0.939676 2.53062 0.939942 2.00019C0.940207 1.46975 1.15117 0.961151 1.52644 0.586266C1.9017 0.211381 2.41051 0.000921405 2.94094 0.00118662C3.47137 0.00145184 3.97998 0.21242 4.35486 0.58768C4.72975 0.96294 4.94021 1.47175 4.93994 2.00219ZM4.99994 5.48219H0.999942V18.0022H4.99994V5.48219ZM11.3199 5.48219H7.33994V18.0022H11.2799V11.4322C11.2799 7.77219 16.0499 7.43219 16.0499 11.4322V18.0022H19.9999V10.0722C19.9999 3.90219 12.9399 4.13219 11.2799 7.16219L11.3199 5.48219Z" />
             </svg>
