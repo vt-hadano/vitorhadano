@@ -21,8 +21,8 @@ export default function Navbar() {
                     <li className="nav-link transition-colors hover:text-cyan"><Link href={"/projetos"}>Projetos</Link></li>
                     <li className="nav-link transition-colors hover:text-pink"><Link href={"/contatos"}>Contatos</Link></li>
                     <li className="nav-divider w-0.5 h-5 bg-black-50 rounded-full"></li>
-                    <li className="nav-link transition-colors hover:fill-pink"><a href="https://www.instagram.com/vt_hadano/" target="blank" className="nav-social-logo"><InstagramIcon className="h-5 w-5 fill-black-50 hover:fill-pink transition-all" /></a></li>
-                    <li className="nav-link transition-colors hover:fill-cyan"><a href="https://www.linkedin.com/in/vitorhadano/" target="blank" className="nav-social-logo"><LinkedinIcon className="h-6git  w-5 fill-black-50 hover:fill-cyan transition-all" /></a></li>
+                    <li className="nav-link transition-colors hover:fill-pink"><a href="https://www.instagram.com/vt_hadano/" target="blank" className="nav-social-logo"><InstagramIcon parentClassName="" className="h-5 w-5 fill-black-50 hover:fill-pink transition-all" /></a></li>
+                    <li className="nav-link transition-colors hover:fill-cyan"><a href="https://www.linkedin.com/in/vitorhadano/" target="blank" className="nav-social-logo"><LinkedinIcon parentClassName="" className="h-6git  w-5 fill-black-50 hover:fill-cyan transition-all" /></a></li>
                 </ul>
                 <div className="md:hidden flex items-center">
                     <button
@@ -66,10 +66,10 @@ export default function Navbar() {
                         <li className="nav-divider w-1/2 h-0.5 bg-black-50 rounded-full"></li>
                         <li className="nav-link flex gap-16 w-full justify-center">
                             <a href="https://www.instagram.com/vt_hadano/" target="blank" className="nav-social-logo">
-                                <InstagramIcon className="h-5 w-5 fill-black-50 hover:fill-pink transition-all" />
+                                <InstagramIcon parentClassName="" className="h-5 w-5 fill-black-50 hover:fill-pink transition-all" />
                             </a>
                             <a href="https://www.linkedin.com/in/vitorhadano/" target="blank" className="nav-social-logo">
-                                <LinkedinIcon className="h-6git  w-5 fill-black-50 hover:fill-cyan transition-all" />
+                                <LinkedinIcon parentClassName="" className="h-6git  w-5 fill-black-50 hover:fill-cyan transition-all" />
                             </a>
                         </li>
                     </ul>
