@@ -17,7 +17,7 @@ export default function Navbar() {
                 <span className="nav-logo"><Link href={"/"}><LogoIcon className=" md:h-16 md:w-16 h-8 w-8 fill-black-100 hover:fill-cyan transition-all" /></Link></span>
                 <ul className="nav-list md:flex gap-8 items-center hidden">
                     <li className="nav-link transition-colors hover:text-pink"><Link href={"/"}>Home</Link></li>
-                    <li className="nav-link transition-colors hover:text-yellow"><Link href={"/sobre-mim"}>Sobre Mim</Link></li>
+                    <li className="nav-link transition-colors hover:text-yellow"><Link href={"/sobre-mim"}>Sobre</Link></li>
                     <li className="nav-link transition-colors hover:text-cyan"><Link href={"/projetos"}>Projetos</Link></li>
                     <li className="nav-link transition-colors hover:text-pink"><Link href={"/contatos"}>Contatos</Link></li>
                     <li className="nav-divider w-0.5 h-5 bg-black-50 rounded-full"></li>
@@ -60,7 +60,7 @@ export default function Navbar() {
                 <div className="md:hidden w-full items ">
                     <ul className="nav-list flex flex-col px-2 pt-2 pb-3 space-y-1 sm:px-3 justify-center items-center gap-8">
                         <li className="nav-link transition-colors hover:text-pink"><Link href={"/"}>Home</Link></li>
-                        <li className="nav-link transition-colors hover:text-yellow"><Link href={"/sobre-mim"}>Sobre Mim</Link></li>
+                        <li className="nav-link transition-colors hover:text-yellow"><Link href={"/sobre-mim"}>Sobre</Link></li>
                         <li className="nav-link transition-colors hover:text-cyan"><Link href={"/projetos"}>Projetos</Link></li>
                         <li className="nav-link transition-colors hover:text-pink"><Link href={"/contatos"}>Contatos</Link></li>
                         <li className="nav-divider w-1/2 h-0.5 bg-black-50 rounded-full"></li>
