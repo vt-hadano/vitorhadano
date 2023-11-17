@@ -21,28 +21,28 @@ export default function Footer() {
                 <div className="divider h-full w-0.5 bg-black-50 rounded-full"></div>
                 <ul className="flex flex-col gap-4">
                     <li>
-                        <a href="">
+                        <a href="https://www.linkedin.com/in/vitorhadano/" target="blank">
                             <LinkedinSquareIcon parentClassName="gap-2 flex" className="h-6 w-6 fill-black-50 transition-all group-hover:fill-cyan ">
                             <p className="md:block hidden group-hover:text-cyan">linkedin.com/in/vitorhadano</p>
                             </LinkedinSquareIcon>
                         </a>
                     </li>
                     <li>
-                        <a href="">
+                        <a href="https://github.com/vt-hadano" target="blank">
                             <GitIcon parentClassName="gap-2 flex" className="h-6 w-6 fill-black-50 transition-all group-hover:fill-yellow ">
                             <p className="md:block hidden group-hover:text-yellow">github.com/vt-hadano</p>
                             </GitIcon>
                         </a>
                     </li>
                     <li>
-                        <a href="">
+                        <a href="https://wa.me/+5511959250795" target="blank">
                             <WhatsAppIcon parentClassName="gap-2 flex" className="h-6 w-6 fill-black-50 transition-all group-hover:fill-cyan">
                             <p className="md:block hidden group-hover:text-cyan">(11) 9 5925-0795</p>
                             </WhatsAppIcon>
                         </a>
                     </li>
                     <li>
-                        <a href="">
+                        <a href="https://www.instagram.com/vt_hadano/" target="blank">
                             <InstagramIcon parentClassName="gap-2 flex" className="h-6 w-6 fill-black-50 transition-all group-hover:fill-pink">
                             <p className="md:block hidden group-hover:text-pink">@vt_hadano</p>
                             </InstagramIcon>
