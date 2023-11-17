@@ -17,10 +17,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className="font-montserrat-alternates font normal">
-        <Navbar/>
+        <Navbar />
         {children}
-        </body>
-        <Footer/>
+        <Footer />
+      </body>
     </html>
   )
 }
