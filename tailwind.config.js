@@ -33,7 +33,11 @@ module.exports = {
       'cyan': '#1994FF',
       'pink': '#C91DA3',
       'purple': '#2A0A61',
-      'yellow': '#FFBB0B'
+      'yellow': '#FFBB0B',
+      'light-pink': '#D04FB4',
+      'light-cyan': '#4CA9F9',
+      'light-purple': '#594182',
+      'light-yellow': '#F9C642'
     }
   },
   plugins: [],
