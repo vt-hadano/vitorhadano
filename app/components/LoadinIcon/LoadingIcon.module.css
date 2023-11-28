@@ -1,0 +1,54 @@
+@keyframes signature {
+    0%{
+        transform: translate(7.4px, -16.3px);     
+    }
+    12.5%{
+        transform: translate(17px, 20px);
+    }
+    25%{
+        transform: translate(27.7px, -24px);
+    }
+    37.5%{
+        transform: translate(0px, 10.2px);
+    }
+    50%{
+        transform: translate(44px, -2px);
+    }
+    51% , 61.5% , 71% , 99%{
+        opacity: 0;
+    }
+    61.5%{
+        transform: translate(28.7px, -8.5px);
+    }
+    0% , 50% , 62.5% , 70% , 100%{
+        opacity: 1;
+    }
+    70%{
+        transform: translate(23.8px, 13.7px);
+    }
+    87.5% , 100%{
+        transform: translate(7.4px, -16.3px);
+    }
+}
+
+.loadingIcon {
+    left: 50%;
+    top:  50%;
+    transform: translate(-50%, -50%);
+}
+
+.dot1 {
+    animation: signature 3s ease infinite;
+}
+
+.dot2 {
+    animation: signature 3s ease infinite  0.02s;
+}
+
+.dot3 {
+    animation: signature 3s ease infinite 0.04s;
+}
+
+.dot4 {
+    animation: signature 3s ease infinite 0.06s;
+}
