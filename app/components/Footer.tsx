@@ -7,7 +7,7 @@ import InstagramIcon from "./icon/InstagramIcon";
 
 export default function Footer() {
     return (
-        <div className="w-full footer flex justify-between bg-white-100 shadow-[0_-4px_16px_rgb(0,0,0,0.25)] md:px-40 px-16 py-8">
+        <div className="z-50 w-full footer flex justify-between bg-white-100 shadow-[0_-4px_16px_rgb(0,0,0,0.25)] md:px-40 px-16 py-8">
             <span className="logo">
                 <Link href="/">
                 <LogoIcon className="md:h-16 md:w-16 h-8 w-8 fill-black-100 hover:fill-cyan transition-all" />

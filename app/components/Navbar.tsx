@@ -12,7 +12,7 @@ export default function Navbar() {
         setIsClick(!isClick);
     }
     return (
-        <nav className="w-full h-auto drop-shadow-lg fixed bg-white-100">
+        <nav className="w-full h-auto drop-shadow-lg fixed bg-white-100 z-50">
             <div className="flex justify-between items-center md:px-16 px-8 py-2 text-black-50 text-2xl w-full">
                 <span className="nav-logo"><Link href={"/"}><LogoIcon className=" md:h-16 md:w-16 h-8 w-8 fill-black-100 hover:fill-cyan transition-all" /></Link></span>
                 <ul className="nav-list md:flex gap-8 items-center hidden">

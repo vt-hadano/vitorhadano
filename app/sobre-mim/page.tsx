@@ -1,5 +1,8 @@
+import GradientBg from "../components/GradientBg/GradientBg";
+
+
 export default function SobreMim () {
     return(
-        <h1>SOBRE MIM</h1>
+        <GradientBg/>
     )
 }
