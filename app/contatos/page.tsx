@@ -1,5 +1,12 @@
+import GradientBg from "../components/GradientBg/GradientBg";
+import UnderConstruction from "../components/UnderConstruction/UnderConstruction";
+
 export default function contatos () {
     return (
-        <h1>CONTATOS</h1>
+        <>
+            <GradientBg>
+                <UnderConstruction/>
+            </GradientBg>
+        </>
     )
 }
