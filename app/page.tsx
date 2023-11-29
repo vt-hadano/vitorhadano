@@ -1,12 +1,13 @@
 import Hero from "./components/Hero"
 import Sobre from "./components/Sobre"
+import Tecnologias from "./components/Tecnologias"
 
 export default function Home() {
   return (
     <main>
       <Hero/>
-      <h1>HOME</h1>
       <Sobre/>
+      <Tecnologias/>
     </main>
   )
 }
