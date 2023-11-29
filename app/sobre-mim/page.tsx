@@ -5,10 +5,10 @@ import UnderConstruction from "../components/UnderConstruction/UnderConstruction
 
 export default function SobreMim() {
     return (
-        <>
+        <main className="h-full w-full">
             <GradientBg>
                 <UnderConstruction/>
             </GradientBg>
-        </>
+        </main>
     )
 }

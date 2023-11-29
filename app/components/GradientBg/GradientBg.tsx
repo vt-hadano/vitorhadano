@@ -7,7 +7,7 @@ interface GradientBgProps {
 
 const GradientBg: React.FC<GradientBgProps> = ({ children }) => {
     return (
-        <div className=" relative w-full overflow-hidden h-screen bg-white-100 flex items-center justify-center">
+        <div className=" relative w-full overflow-hidden h-full bg-white-100 flex items-center justify-center">
             {children}
             <div className="h-0 w-0">
                 <div className={styles.g1 + " z-0 blur-[200px] absolute h-[40rem] w-[40rem] block rounded-full bg-cyan"}></div>
