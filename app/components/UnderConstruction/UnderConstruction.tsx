@@ -6,7 +6,7 @@ import Button from "../Button";
 const UnderConstruction: React.FC = () => {
     return (
         <div className={styles.underConstruction + " absolute flex w-auto h-auto flex-col items-center justify-center"}>
-                <Image src={"/img-14.png"} alt={"Cone e capacete de construção"} width={200} height={100} className="relative top-2"></Image>
+                <Image src={"/img-15.png"} alt={"Cone e capacete de construção"} width={200} height={100} className="relative top-2"></Image>
             <div className="z-4 md:text-base text-sm w-auto h-auto rounded-full bg-white-100 py-4 px-8 font-bold text-black-100 shadow-xl md:tracking-[0.2em]">
                 <p><span className="font-montserrat">E</span>M CONSTRUÇÃO</p>
             </div>

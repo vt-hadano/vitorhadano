@@ -31,12 +31,6 @@
     }
 }
 
-.loadingIcon {
-    left: 50%;
-    top:  50%;
-    transform: translate(-50%, -50%);
-}
-
 .dot1 {
     animation: signature 3s ease infinite;
 }
