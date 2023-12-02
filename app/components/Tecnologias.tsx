@@ -13,8 +13,8 @@ export default function Tecnologias() {
             <SliderTechnology/>
             <Image
                 src="/img-16.png" alt={"Avatar de Vitor Hadano criando um aplicativo em um laboratório"}
-                width={726}
-                height={775}
+                width={1440}
+                height={791}
                 className="w-full"
             />
         </div>

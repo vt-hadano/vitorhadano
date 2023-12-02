@@ -64,7 +64,7 @@ const CardTechnology: React.FC<CardTechnologyProps> = (props) => {
                 <div className={`flex flex-col items-center justify-start bg-black-100/10 rounded-2xl gap-2 backdrop-blur-xl  overflow-hidden ${styles.cardContent} ` + cardClasses}>
                     <h3 className="font-medium text-md text-center">{tecName}</h3>
                     <div className="bg-black-50 rounded-full w-full"></div>
-                    <p>{tecDescription}</p>
+                    <p className="lg:text-base text-xs">{tecDescription}</p>
                 </div>
                 <div className="flex items-center justify-center w-0 h-0">
                     <div className={`relative cursor-pointer  p-3 block rounded-full flex items-center justify-center drop-shadow-lg ${getBallClassName()}`}

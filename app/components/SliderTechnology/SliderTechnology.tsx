@@ -81,7 +81,7 @@ const SliderTechnology: React.FC = () => {
     }
     return (
         <div className={`w-full px-16 m-auto relative flex ${styles.sliderContainer}`}>
-            <div className={`h-[45vh] m-[50px] ${styles.sliderCards}`}>
+            <div className={`m-[50px] ${styles.sliderCards}`}>
                 {tecCards.map(card => (
                     <CardTechnology
                         key={card.key}
@@ -95,9 +95,9 @@ const SliderTechnology: React.FC = () => {
                 ))}
             </div>
             <div>
-                <button onClick={movePrev} className={`bg-transparent flex items-center h-full w-20 ${styles.sliderNav} ${styles.prev}`}><PrevArrow className="w-16 bg-transparent fill-black-25 hover:fill-pink" parentClassName={""} /></button>
+                <button onClick={movePrev} className={`bg-transparent md:block hidden flex items-center h-full w-20 ${styles.sliderNav} ${styles.prev}`}><PrevArrow className="w-16 bg-transparent fill-black-25 hover:fill-pink" parentClassName={""} /></button>
 
-                <button onClick={moveNext} className={`bg-transparent flex items-center h-full w-20 ${styles.sliderNav} ${styles.next}`}><NextArrow className="w-[58px] h-[111px] bg-transparent fill-black-25 hover:fill-pink" parentClassName={""} /></button>
+                <button onClick={moveNext} className={`bg-transparent md:block hidden flex items-center h-full w-20 ${styles.sliderNav} ${styles.next}`}><NextArrow className="w-[58px] h-[111px] bg-transparent fill-black-25 hover:fill-pink" parentClassName={""} /></button>
             </div>
         </div>
     );

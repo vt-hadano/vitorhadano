@@ -1,4 +1,4 @@
-.tecCard{
+.tecCard {
     position: absolute;
     width: 30%;
     height: 50%;
@@ -8,7 +8,7 @@
     transition: transform 1.4s cubic-bezier(0.19, 1, 0.22, 1);
 }
 
-.innerCard{
+.innerCard {
     width: 100%;
     height: auto;
     display: flex;
@@ -19,7 +19,7 @@
     transition: 0.25s;
 }
 
-.tecCard::after{
+.tecCard::after {
     content: '';
     position: absolute;
     top: 30%;
@@ -34,22 +34,23 @@
     transition: all 2s cubic-bezier(0.19, 1, 0.22, 1);
 }
 
-.cardContent p, .cardContent h3{
+.cardContent p,
+.cardContent h3 {
     width: 14rem;
 }
 
-.cardContent div{
+.cardContent div {
     height: 3px;
     flex-shrink: none;
 }
 
-.active{
+.active {
     width: 16rem;
     height: 18rem;
     padding: 2rem 1rem 1rem 1rem;
 }
 
-.inactive{
+.inactive {
     width: 0;
     height: 0;
     padding: 0;
@@ -81,23 +82,78 @@
     background: radial-gradient(78.25% 78.25% at 66.51% 29.48%, #E5E5E6 0%, #B6B5B7 30.73%, #4C4C4D 76.56%, #545355 100%);
 }
 
-.position1{
+.position1 {
     z-index: 2;
-    transform: translate(-50%) translate3d( 0%, -20%, 0);
+    transform: translate(-50%) translate3d(0%, -10%, 0);
 }
-.position2{
+
+.position2 {
     z-index: 1;
-    transform: translate(-50%) translate3d( 100%, -10%, 0) scale(1.2);
+    transform: translate(-50%) translate3d(120%, -10%, 0) scale(1.2);
 }
-.position3{
+
+.position3 {
     z-index: 0;
-    transform: translate(-50%) translate3d( 40%, -31%, 0);
+    transform: translate(-50%) translate3d(40%, -31%, 0);
 }
-.position4{
+
+.position4 {
     z-index: 0;
-    transform: translate(-50%) translate3d( -40%, -31%, 0);
+    transform: translate(-50%) translate3d(-40%, -31%, 0);
 }
-.position5{
+
+.position5 {
     z-index: 1;
-    transform: translate(-50%) translate3d( -100%, -10%, 0) scale(1.2);
+    transform: translate(-50%) translate3d(-120%, -10%, 0) scale(1.2);
+}
+
+@media (max-width: 900px) {
+    .active {
+        width: 12rem;
+        height: 15rem;
+    }
+
+
+
+    .cardContent p,
+    .cardContent h3 {
+        width: 10rem;
+    }
+}
+
+@media (max-width: 700px) {
+    .active {
+        width: 12rem;
+        height: 15rem;
+    }
+
+    .cardContent p,
+    .cardContent h3 {
+        width: 10rem;
+    }
+
+    .position1 {
+        z-index: 2;
+        transform: translate(-50%) translate3d(0%, -10%, 0);
+    }
+
+    .position2 {
+        z-index: 1;
+        transform: translate(-50%) translate3d(200%, -10%, 0) scale(0.9);
+    }
+    
+    .position3 {
+        z-index: 0;
+        transform: translate(-50%) translate3d(70%, -31%, 0) scale(0.8);
+    }
+    
+    .position4 {
+        z-index: 0;
+        transform: translate(-50%) translate3d(-70%, -31%, 0) scale(0.8);
+    }
+    
+    .position5 {
+        z-index: 1;
+        transform: translate(-50%) translate3d(-200%, -10%, 0) scale(0.9);
+    }
 }
