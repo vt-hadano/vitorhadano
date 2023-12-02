@@ -1,8 +1,8 @@
 export default function PrevArrow({ parentClassName, className, children }: { parentClassName: string; className?: string; children?: React.ReactNode }) {
     return (
         <div className={`group ${parentClassName}`}>
-            <svg width="42" height="83" viewBox="0 0 42 83" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path fill-rule="evenodd" clip-rule="evenodd" d="M0.734863 41.4543L41.3935 0.795706C41.9793 0.209921 42.929 0.20992 43.5148 0.795706C44.1006 1.38149 44.1006 2.33124 43.5148 2.91703L4.9775 41.4543L43.5148 79.9917C44.1006 80.5775 44.1006 81.5272 43.5148 82.113C42.929 82.6988 41.9793 82.6988 41.3935 82.113L0.734863 41.4543Z" />
+            <svg width="58" height="111" viewBox="0 0 58 111" fill="none" xmlns="http://www.w3.org/2000/svg" className={className}>
+                <path fillRule="evenodd" clipRule="evenodd" d="M57.5609 0.43934C58.1467 1.02513 58.1467 1.97487 57.5609 2.56066L4.62155 55.5L57.5609 108.439C58.1467 109.025 58.1467 109.975 57.5609 110.561C56.9751 111.146 56.0254 111.146 55.4396 110.561L0.378906 55.5L55.4396 0.43934C56.0254 -0.146447 56.9751 -0.146447 57.5609 0.43934Z" />
             </svg>
 
 

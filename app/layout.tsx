@@ -12,7 +12,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="font-montserrat-alternates">
+      <body className="font-montserrat-alternates bg-white-100">
         <Navbar />
         <Suspense fallback={<LoadingPage/>}>
           {children}

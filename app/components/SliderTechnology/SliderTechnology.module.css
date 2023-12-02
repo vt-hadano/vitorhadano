@@ -1,0 +1,27 @@
+
+.sliderContainer {
+    width: 50%;
+    margin: auto;
+    position: relative;
+}
+
+.slideCards{
+    height: 45vw;
+    margin: 50px;
+    list-style-type: none;
+}
+
+.sliderNav {
+    position: absolute;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.sliderNav.next {
+    right: -35%;
+}
+
+
+.sliderNav.prev {
+    left: -35%;
+}
