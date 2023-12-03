@@ -1,13 +1,14 @@
-import React, { InputHTMLAttributes } from "react";
+import React, { InputHTMLAttributes, ReactNode } from "react";
 import styles from "./CustomInput.module.css";
 
 interface CustomInputProps extends InputHTMLAttributes<HTMLInputElement> {
-    label: string;
+    label: ReactNode;
     extraClasses: string;
 }
 
 const CustomInput: React.FC<CustomInputProps> = (inputProps) => {
     const { type, placeholder, label, name, extraClasses, ...rest } = inputProps;
+
 
     const handleInputType = () => {
         if (type === 'textarea') {
@@ -17,7 +18,7 @@ const CustomInput: React.FC<CustomInputProps> = (inputProps) => {
     }
 
     return (
-        <div>
+        <div className={`${type === 'textarea' ? 'h-full' : 'h-auto'} flex flex-col`}>
             <label htmlFor={name} className="font-medium">{label}</label>
             {handleInputType()}
         </div>
