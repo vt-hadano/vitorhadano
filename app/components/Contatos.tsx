@@ -2,12 +2,17 @@
 
 import Button from "./Button";
 import CustomInput from "./CustomInput/CustomInput";
+import HandleSubmit from "./HandleEmail";
+
+interface emailMessage {
+    nome: string;
+    email: string;
+    tel: string;
+    subject: string;
+    content: string;
+}
 
 export default function Contatos() {
-
-    const handleSubmit = () => {
-
-    }
 
     return (
         <div className="h-screen w-full">
@@ -36,13 +41,21 @@ export default function Contatos() {
                         placeholder={"(99) 9 9999-9999"}
                     />
                     <CustomInput
+                        label={"Assunto"}
+                        extraClasses={"bg-black-12 placeholder:text-black-50 focus:border-pink"}
+                        name={"assunto"}
+                        type={"text"}
+                        placeholder={"O que você quer fazer?"}
+                    />
+                    <CustomInput
                         label={"Descrição do Projeto"}
                         extraClasses={"bg-black-12 placeholder:text-black-50 focus:border-pink"}
                         name={"descProjeto"}
                         type={"textarea"}
                         placeholder={"Qual é o plano?"}
                     />
-                    <Button className="drop-shadow-lg mt-4 md:py-2 py-1 w-full bg-pink rounded-full md:text-xl text-md text-white-100 hover:bg-light-pink transition-all focus:bg-black-5 focus:border-pink focus:text-pink" onClick={() => handleSubmit}><span className="font-montserrat">E</span>nviar</Button>
+                    <Button className="drop-shadow-lg mt-4 md:py-2 py-1 w-full bg-pink rounded-full md:text-xl text-md text-white-100 hover:bg-light-pink transition-all focus:bg-black-5 focus:border-pink focus:text-pink" onClick={HandleSubmit}><span className="font-montserrat">E</span>nviar</Button>
+                    {}
                 </div>
             </div>
         </div>
